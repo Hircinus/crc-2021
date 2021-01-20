@@ -191,7 +191,6 @@ nav #navbar-collapse ul .nav-item {
 }
 
 #CRC-Robotics-Competition {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
   margin-left: 0px;
@@ -214,13 +213,11 @@ nav #navbar-collapse ul .nav-item {
 }
 
 #Game-Description {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
 }
 
 #About-Us {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
   margin-left: 0px;
@@ -243,7 +240,6 @@ nav #navbar-collapse ul .nav-item {
 }
 
 #Team-Roster {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
 }
@@ -264,19 +260,16 @@ nav #navbar-collapse ul .nav-item {
 }
 
 #CRC-Season {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
 }
 
 #Student-Experience {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
 }
 
 #Conclusion {
-  height: 400px;
   width: 100%;
   padding: 100px 50px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hardware-pexels-athena.jpg");
