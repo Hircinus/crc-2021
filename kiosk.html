@@ -18,10 +18,23 @@
         <link rel="stylesheet" href="assets/style.css" type="text/css">
     </header>
     <body>
-        <x-model height="400px" width="400px" src="assets/AnimatedCube.gltf"></x-model>
+        <x-model id="model" style="transition: transform 1s ease;" src="assets/AnimatedCube.gltf"></x-model>
+        <br>
+        <button onclick="spin()">Spin me!</button>
         <script src="assets/three.min.js"></script>
-        <script src="assets/obj-loader.min.js"></script>
         <script src="assets/gltf-loader.js"></script>
         <script src="assets/model-element.min.js"></script>
+        <script>
+            let model = document.getElementById("model");
+            var spun = FALSE;
+            function spin() {
+                if (spun == FALSE) {
+                    model.transform = "rotateX(25deg) rotateY(25deg) rotateZ(25deg)";
+                }
+                else {
+                    model.transform = "rotateX(0) rotateY(0) rotateZ(0)";
+                }
+            }
+        </script>
     </body>
 </html>
