@@ -218,34 +218,7 @@ nav {
     }
 }
 
-#CRC-Robotics-Competition {
-    width: 100%;
-    padding: 100px 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    .col-5 {
-        margin: auto;
-    }
-    .col-6 {
-        display: flex;
-        align-items: center;
-        margin: auto;
-    }
-    img {
-        display: block;
-        max-width: 500px;
-        max-height: 500px;
-        width: auto;
-        height: auto;
-    }
-}
-
-#Game-Description {
-    width: 100%;
-    padding: 100px 50px;
-}
-
-#About-Us {
+.container {
     width: 100%;
     padding: 100px 50px;
     margin-left: 0px;
@@ -288,17 +261,6 @@ nav {
         }
     }
 }
-
-#CRC-Season {
-    width: 100%;
-    padding: 100px 50px;
-}
-
-#Student-Experience {
-    width: 100%;
-    padding: 100px 50px;
-}
-
 
 #Conclusion {
     width: 100%;
