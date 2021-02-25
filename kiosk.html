@@ -46,7 +46,7 @@
                 if (y=='r') { b='rotate'; }
                 else { b='translate'; }
                 c = z.split(".");
-                for (i<(a.count()-1);i++;i=0) {
+                for (i=0;i<(a.count()-1);i++) {
                     model.style.transform += b + a[i] + "(" + c[i] + "deg) ";
                 }
                 model.style.transform += b + a[a.count()-1] + "(" + c[c.count()-1] + "deg)";
