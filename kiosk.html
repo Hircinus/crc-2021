@@ -30,16 +30,26 @@
     <body>
         <x-model id="model" style="transition: transform 4s ease-in-out;" src="assets/pog.gltf"></x-model>
         <br>
-        <button onclick="action(25)">Action!</button>
-        <button onclick="action(0)">Back!</button>
+        <br>
+        <button onclick="action('Z', 'r', 90)">Turn (90z)!</button>
+        <button onclick="action('Z', 'r', -90)">Turn (-90z)!</button>
+        <button onclick="action('X', 't', 90)">Move (90x)!</button>
+        <button onclick="action('X', 't', -90)">Move (-90x)!</button>
         <script src="assets/three.min.js"></script>
         <script src="assets/gltf-loader.js"></script>
         <script src="assets/obj-loader.min.js"></script>
         <script src="assets/model-element.min.js"></script>
         <script>
             var model = document.getElementById("model");
-            function action(x) {
-                model.style.transform = "rotateX(" + x + "deg) rotateY(" + x + "deg) rotateZ(" + x + "deg)";
+            function action(x, y, z) {
+                a = x.split(".");
+                if (y=='r') { b='rotate'; }
+                else { b='translate'; }
+                c = z.split(".");
+                for (i<(a.count()-1);i++;i=0) {
+                    model.style.transform += b + a[i] + "(" + c[i] + "deg) ";
+                }
+                model.style.transform += b + a[a.count()-1] + "(" + c[c.count()-1] + "deg)";
             }
         </script>
     </body>
