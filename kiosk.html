@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <header>
+        <style>
+            #model:hover {
+                animation: spin 5s ease infinite
+            }
+            @keyframes spin {
+                from{transform: rotate(0)}
+                to{transform: rotateX(360deg) rotateY(360deg) rotateZ(-360deg)}
+            }
+        </style>
         <title>Champlain Robotics Club - Kiosk</title>
         <meta charset="utf-8">
         <meta name="description" content="The Champlain Robotics Club joins the CRC once again for the most unique challenge of its history this year!">
@@ -18,7 +27,7 @@
         <link rel="stylesheet" href="assets/style.css" type="text/css">
     </header>
     <body>
-        <x-model id="model" style="transition: transform 1s ease;" src="assets/cube.obj"></x-model>
+        <x-model id="model" style="transition: transform 1s ease;" src="assets/AnimatedCube.gltf"></x-model>
         <br>
         <script src="assets/three.min.js"></script>
         <script src="assets/gltf-loader.js"></script>
