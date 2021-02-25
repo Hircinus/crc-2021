@@ -30,9 +30,16 @@
     <body>
         <x-model id="model" style="transition: transform 4s ease-in-out;" src="assets/pog.gltf"></x-model>
         <br>
+        <button onclick="action()">Action!</button>
         <script src="assets/three.min.js"></script>
         <script src="assets/gltf-loader.js"></script>
         <script src="assets/obj-loader.min.js"></script>
         <script src="assets/model-element.min.js"></script>
+        <script>
+            var model = document.getElementById("model");
+            function action() {
+                model.rotateX = "25deg";
+            }
+        </script>
     </body>
 </html>
