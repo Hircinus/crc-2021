@@ -25,7 +25,7 @@ a {
 }
 
 #backToTop {
-    background-color: $whiteblue;
+    background-color: #fff;
     border: $blue 2px solid;
     border-radius: 1rem;
     position: fixed;
@@ -200,7 +200,7 @@ nav {
     width: 100%;
     padding: 75px 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("images/hardware-pexels-athena.jpg");
+    rgba(0, 0, 0, 0.5)), url("hardware-pexels-athena.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -266,7 +266,7 @@ nav {
     width: 100%;
     padding: 100px 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("images/hardware-pexels-athena.jpg");
+    rgba(0, 0, 0, 0.5)), url("hardware-pexels-athena.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
