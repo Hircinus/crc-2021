@@ -236,6 +236,14 @@ nav #navbar-collapse ul .nav-item {
   padding: 100px 50px;
   margin-left: 0px;
   margin-right: 0px;
+  /*
+  img {
+      display: block;
+      max-width: 500px;
+      max-height: 500px;
+      width: auto;
+      height: auto;
+  }*/
 }
 .container .col-5 {
   margin: auto;
@@ -244,13 +252,6 @@ nav #navbar-collapse ul .nav-item {
   display: flex;
   align-items: center;
   margin: auto;
-}
-.container img {
-  display: block;
-  max-width: 500px;
-  max-height: 500px;
-  width: auto;
-  height: auto;
 }
 
 #Team-Roster {
